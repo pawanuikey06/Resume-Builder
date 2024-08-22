@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+	height: 100%;
+}
+* {
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: "Heuristica";
+	src: url("../assets/fonts/Heuristica-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
